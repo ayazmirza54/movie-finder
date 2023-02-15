@@ -7,7 +7,9 @@ import avatar from "../src/assets/movieflix.png";
 import MovieCard from "../src/components/Moviecard";
 import axios from "axios";
 import notfound from "../src/assets/404-error.png";
+import { inject } from '@vercel/analytics';
 
+inject();
 
 
 
